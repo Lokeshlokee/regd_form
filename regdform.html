@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admission form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="silver">
+    <h1>Admission / Registration Form</h1>
+    <form action="https://formspree.io/f/xeqberzb" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <label for="phone number">Phone Number</label>
+        <input type="tel" name="tel" required>
+        <label for="gender">Gender</label>
+        <select id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <label for="Zipcode">Zipcode</label>
+        <input type="number" name="number" required>
+        <label for="brief yourself">brief yourself</label>
+        <input type="textarea" name="brief yourself" required>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+                <h3>select a subject from these 3</h3>
+                <input type="radio" id="computer networks" name="fav_language" value="HTML">
+                <label for="computer networks">computer networks</label><br>
+                <input type="radio" id="compiler design" name="fav_language" value="CSS">
+                <label for="compiler design">compiler design</label><br>
+                <input type="radio" id="human values" name="fav_language" value="JavaScript">
+                <label for="human values">human values</label>
+
+                    <h3>select another subject from these 3</h3>
+                    <input type="radio" id="dm" name="fav_language" value="HTML">
+                    <label for="DM">DM</label><br>
+                    <input type="radio" id="DENM" name="fav_language" value="CSS">
+                    <label for="DENM">DENM</label><br>
+                    <input type="radio" id="P&S" name="fav_language" value="JavaScript">
+                    <label for="P&S">P&S</label>
+
+                        <h3>Address</h3>
+                    <label for="door number">doornumber</label>
+                    <input type="tel" name="doornumber" required>
+                    <label for="street ">street</label>
+                    <input type="text" name="street" required>
+                    <label for="city">city</label>
+                    <input type="text" name="city" required>
+                    <label for="state">state</label>
+                    <input type="text" name="state" required>
+                 
+            
+                    <h3>Nationality</h3>
+                    <input type="text" name="nationality" required>
+                
+            
+                    <h3>Contact Details</h3>
+                    <label for="father's name">father's name</label>
+                    <input type="text" name="father's name" required>
+                    <label for="mother's name">mother's name</label>
+                    <input type="text" name="mother's name" required>
+                
+                
+                    <h3>Contact Details</h3>
+                    <label for="father's ph.no">father's ph.no</label>
+                    <input type="text" name="father's ph.no" required>
+                    <label for="mother's ph.no">mother's ph.no</label>
+                    <input type="text" name="mother's ph.no" required>
+            
+
+        <div id="submit">
+            <input type="submit" value="Register" required>
+        </div>
+    </form>
+        
+</body>
+</html>
